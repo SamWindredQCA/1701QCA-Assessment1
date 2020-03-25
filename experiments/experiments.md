@@ -6,88 +6,62 @@
 
 *For a selection of 5 inventor kit experiments that you choose, fill out the following sections.
 
-### Experiment name ###
-
-(Replace this with the experiment name)
-
-#### Photo of completed project ####
-*In the code below, replace `missingimage.png` with the name of the image, which should be in the `kitexperiments` folder.*
-
+### Wind Power ###
 ![Image](missingimage.png)
 
 (Insert a caption here)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+For this experiment I learnt some basic code and how to potentially create a circuit diagram for my replication project: The circuit for this experiment was really easy and fun to work with.
 
-This experiment could be the basis of a real world application such as (insert something here).
-
-### Experiment name ###
-
-(Replace this with the experiment name)
+### Compass Game ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
-
 ![Image](missingimage.png)
 
 (Insert a caption here)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+* For this experiment I learnt how to do some more complex code.
+* Learnt how to create code for the onboard compass on the micro:bit.
 
-This experiment could be the basis of a real world application such as (insert something here).
-
-### Experiment name ###
-
-(Replace this with the experiment name)
-
-#### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
-
+### LED Dimming ###
 ![Image](missingimage.png)
 
 (Insert a caption here)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+* Learnt about creating a voltage range for the Potentiometer to use.
+* What way the "flat" edge is of an LED.
+* How to create a complex circuit diagram.
 
-This experiment could be the basis of a real world application such as (insert something here).
-
-### Experiment name ###
-
-(Replace this with the experiment name)
-
-#### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
-
+### RGB LED ###
 ![Image](missingimage.png)
 
 (Insert a caption here)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+* Learnt how to program an RGB light.
+* Learnt what wires are what colours on an RGB light.
+  (Top -> Bottom)
+  1. Green
+  2. Blue
+  3. Common
+  4. Red
+* 10K resistors are marked with brown, black, orange, gold.
+* 47 Ohm are marked with yellow, purple, black and gold.
+* How to connect a switch to the same LED, but program a different colour.
 
-This experiment could be the basis of a real world application such as (insert something here).
-
-### Experiment name ###
-
-(Replace this with the experiment name)
-
-#### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
-
+### Traffic Lights ###
 ![Image](missingimage.png)
 
 (Insert a caption here)
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
-
-This experiment could be the basis of a real world application such as (insert something here).
-
+* Using block commands to create 6 outputs. 1 for the buzzer, 2 for the pedestrian lights & 3 for the traffic lights.
+* This will be used for my replication project!
