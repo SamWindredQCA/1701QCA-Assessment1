@@ -129,11 +129,101 @@ I don't know how I can incorporate this into my project.
 
 *This should have quite a lot of information!*
 
-*There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. Use the code below to include images, and copy it for each image, updating the information for each.*
-
-![Image](missingimage.png)
+*There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. Use the code below to include images, and copy it for each image, updating the information for each*
 
 *Include screenshots of the code you have used.*
+
+Before I started the project, I looked through the choices provided to find out what stands out the most to me. I seen the timing gates project and it peeked my interest. I had a look through what the project was and started brainstorming ways I could replicate and add to it.
+
+My dad helped with the decision and trains came to mind. So I begin to put together a small train platform. I am lucky my dad also had model train sets, that came with decorative pieces I could use for the aesthetics.
+
+![Image](track_start.jpg)
+
+![Image](track_layout.jpg)
+
+I took the timing gates into mind and decided to make use of it for traffic lights. Microbit's project 11 was perfect for this. It provided exactly what I needed, with its' pedestrian example. It used 3 LED lights for the traffic light, 2 LED lights for the pedestrian lights and a buzzer to add to the auditory aesthetic of a traffic light.
+
+![Image](light_post_wired.jpg)
+
+I put this into play with the train idea and turned it into a stop and go light for the train (pedestrian light) and traffic lights for cars to cross the track safely. I had assistance from my dad to cut and sand the wood used for the platform, to make a cutout section for the crossing.
+
+![Image](track_layout_2.jpg)
+
+I needed a way for the train to trigger the lights to switch over, so I used a switch. This way, when a train comes into contact with it, the Microbit will be triggered and will toggle the lights and allow for the train to pass. 
+
+Once the basic setup for the project was done (Track and platform), I started working with the microbit. I started very basic, using the simple two switch circuit in the book provided with the microbit. Proceeding onto the traffic light circuit, which happened to fit perfectly with the switch setup, with no comflicts in wiring (even though the button circuit only used 4 pins).
+
+![Image](switch_pins.jpg)
+
+With some assistance from my partner, I was able to piece together the code to make it work together, based on switch inputs and only changing back when the opposite switch is pressed. Each interaction is split into its own function, which is a block of code that can be called from anywhere. These also make sure the process cannot be restarted. Eg. If the lights are already toggled, pressing switch 1 will not try to toggle it back from the beginning. As well as using input while it is switching, it will not start the process if it is already in the course of toggling. 
+
+The inputs are as simple as:
+
+```javascript
+
+	input.onButtonPressed(Button.A, function () {
+
+		toggleOn()
+	})
+
+	input.onButtonPressed(Button.B, function () {
+
+		toggleOff()
+	})
+	
+```
+
+Both of these functions are in charge of toggling the LED lights at the respective light post, as well as making sure the process cannot be started again or done whilst in the means of doing so.
+
+As user based feedback, the microbit will show a symbol on its LED matrix to show whether or not the cars are allowed through or not, this helped majorly when debugging certain aspects and allowed me to know what was happening.
+
+The code is as follows:
+
+```javascript
+
+	basic.forever(function () {
+
+		// Happy face - toggled off
+		// STOP! - toggled on
+
+		// Go
+		if (toggled == false) {
+
+			basic.showLeds(`
+			. # . # .
+			. # . # .
+			. . . . .
+			# . . . #
+			. # # # .
+			`)
+		}
+		else {
+
+			// Play buzzer
+			music.playTone(buzzNote, music.beat(BeatFraction.Whole))
+
+			basic.showLeds(`
+			. # # # .
+			# . . . #
+			# . . . #
+			# . . . #
+			. # # # .
+			`)
+			basic.pause(buzzWaitTime)
+		}
+	})
+
+```
+
+Surprisingly the code was not a big part of the process of making the project, more time went into the aesthetic and its functionality. Once the code was uploaded and it was set into place with the platform it looked a little something like this.
+
+![Image](track_view_unpainted.jpg)
+
+You can see the environment being made up and the switch being used to toggle the lights, also seen in the image above. Some extra electronic parts were used, that did not come stock with the microbit kit, as some of the components that were supplied, would not have done the job needed. I was able to get a good use of the components provided in the kit, as I was able to use all the wires, most if not all of the LEDs and some resistors.
+
+At last, with almost a week straight of solid work designing, building and coding, I was able to get something made that actually works as it was intended.
+
+![Image](painted_view.jpg)
 
 ## Project outcome ##
 
