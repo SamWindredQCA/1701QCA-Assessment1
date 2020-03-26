@@ -4,20 +4,39 @@
 
 *Markdown reference:* [https://guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
 
-## Replication project choice ##
-(Insert the name of the project you chose to replicate.)
+## Timing Gates ##
 
 ## Related projects ##
 *Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
 
-### Related project 1 ###
-(Insert name of project)
+### ELECTRIC WORKING MODEL RAILWAY ###
+https://www.youtube.com/watch?v=bc6jyj93Ee4
 
-(Insert URL to project)
+This Project related to my project as it is very close as to what i am trying to achieve with an automatic boom gate opening when the train touches a switch that is further down the track then comes back down when the train has touched another switch on the other side.
 
-![Image](missingimage.png)
+### Project 2 ###
+https://www.youtube.com/watch?v=FDw9CLabdQk
 
-This project is related to mine because (insert reasons here).
+This will be used in my project to signal when the cars need to stop for the train and when the gates come down for the train to pass.
+
+### Project 3 ###
+https://www.youtube.com/watch?v=6yCbtgr7rSI
+
+This just shows timing of traffic lights and keeping a flow… I thought it was cool. It might help with the timing of the train boom gate going up and down to let traffic thru.
+
+### Project 4 ###
+https://www.youtube.com/watch?v=piyym_ux1EM
+https://www.youtube.com/watch?v=N4bWQcu6yWs
+https://www.youtube.com/watch?v=zi_-NAmdDpY
+https://www.youtube.com/watch?v=M3DIUvDPlIA
+
+The original project that I am replicating. 
+
+### Project 5 ###
+https://www.youtube.com/watch?v=okxooamdAP4
+
+How to use a servo motor if I can get one and use it… I might use something else to make the boom gate.
+
 
 ## Reading reflections ##
 *Reflective reading is an important part of actually making your reading worthwhile. Don't just read the words to understand what they say: read to see how the ideas in the text fit with and potentially change your existing knowledge and maybe even conceptual frameworks. We assume you can basically figure out what the readings mean, but the more important process is to understand how that changes what you think, particularly in the context of your project.*
@@ -28,32 +47,76 @@ This project is related to mine because (insert reasons here).
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+- Making something easy to understand for the user creates a more pleasant experience. An example of a challenging thing to understand is putting together IKEA Furniture… especially back in the day of the print not being too great. The imagery for some of the parts was not accurate to what was actually supposed to be where, this caused people to get frustrated building the furniture and sometimes even over-threading screws and things they needed for that particular project.
+- Feedback is very important…. Most people/products ignore it.
+
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+- “Affordances” gives clues to the operator about what to do with that object (balls are for throwing or bouncing, knobs are for turning, etc.)
+- Affordances are relationships… NOT PROPERTIES!
+- An icon for where a person could be directed to tap on something such as a button on the screen can be referred to as a “Signifier”. (eg. the touch screen is the affordance and the icons are the signifier of where you need to touch for the action to happen)
+-There are intentional and unintentional signifiers
+- External signifiers= bad design\
+- Mapping- The relationship between the elements of two things.
+- Feedback- communicating the results of an action.
+- If the delay of feedback is too long people will often give up or go to do something else.
+- Auditory feedback can sometimes be confusing
+- Too much feedback can be annoying more than too little.
+- A conceptual model is an explanation of how something works in the most simplified way possible. 
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+- What can determine a good design and a bad design?
+- What's good feedback and what's bad feedback?
+- How to make my feedback for a product meaningful but not annoying?
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+- This reading can help me with my project with making sure the signifiers for the project are clear.
+- How to create clear feedback as to when the gates are down.
+- What the affordances and the signifiers are of the project.
 
 ### Reading: Chapter 1 of Dan Saffer, Microinteractions: Designing with Details, Chapter 1 ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+I don't know
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+- A microinteraction is a tiny piece of functionality (eg. an app or device or something inside a larger product).
+- Microinteractions are the glue of the product, it ties different features of a product all together.
+- Larry Tesler invented “copy” and “paste”
+- Dramatically reduced the time and complexity of what seems to be a simple function.
+- We use a lot of physical terms to describe digital interactions (eg. putting a file into a folder).
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+- How to create microinteractions that flow nicely with each other?
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+I don't know how I can incorporate this into my project.
 
 ### Reading: Scott Sullivan, Prototyping Interactive Objects ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+I don't know...
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+- Anyone can code (and will get overly excited with little output).
+- You may find big flaws after the deployment, requiring a new approach to the situation. Even if that means starting from scratch :).
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+- Why did it take you so long? 
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
 
+I don't know how I can incorporate this into my project.
 
 ## Interaction flowchart ##
 *Draw a flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
