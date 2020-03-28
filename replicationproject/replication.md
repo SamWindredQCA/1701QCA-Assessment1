@@ -4,7 +4,7 @@
 
 *Markdown reference:* [https://guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
 
-## Timing Gates ##
+## Train Timing Gates ##
 
 ## Related projects ##
 *Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
@@ -119,9 +119,7 @@ I don't know...
 I don't know how I can incorporate this into my project.
 
 ## Interaction flowchart ##
-*Draw a flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
-
-![Image](missingimage.png)
+![Image](flow_diagram.jpg)
 
 ## Process documentation
 
@@ -227,33 +225,26 @@ At last, with almost a week straight of solid work designing, building and codin
 
 ## Project outcome ##
 
-*Complete the following information.*
-
-### Project title ###
+### Train Timing Gates ###
 
 ### Project description ###
 
 *In a few sentences, describe what the project is and does, who it is for, and a typical use case.*
 
+This project is based off the timing gates project (11). It uses gate switches to toggle the lights for the train and start the traffic lights, so that a boom gate is triggered to stop traffic. I would say a project like this, is for people who like and are interested in model trains, and their track development. It allows for more automation through their track and more realism when it comes to road and rail networks.
+
 ### Showcase image ###
-
-*Try to capture the image as if it were in a portfolio, sales material, or project proposal. The project isn't likely to be something that finished, but practice making images that capture the project in that style.*
-
-![Image](missingimage.png)
+![Image](showcase.jpg)
 
 ### Additional view ###
-
-*Provide some other image that gives a viewer a different perspective on the project such as more about how it functions, the project in use, or something else.*
-
-![Image](missingimage.png)
+![Image](additional_view.jpg)
 
 ### Reflection ###
 
 *Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.*
 
-
 *What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?*
-
+In the way of circuitry, all that was needed was a simple 2 button circuit added onto the traffic light circuit in project 11. All that was needed were very slight modifications to get it working all together.
 
 *What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
 
