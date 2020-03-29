@@ -229,24 +229,32 @@ At last, with almost a week straight of solid work designing, building and codin
 
 ### Project description ###
 
-*In a few sentences, describe what the project is and does, who it is for, and a typical use case.*
-
 This project is based off the timing gates project (11). It uses gate switches to toggle the lights for the train and start the traffic lights, so that a boom gate is triggered to stop traffic. I would say a project like this, is for people who like and are interested in model trains, and their track development. It allows for more automation through their track and more realism when it comes to road and rail networks.
 
 ### Showcase image ###
-![Image](showcase.jpg)
+![Image](showcase.png)
 
 ### Additional view ###
-![Image](additional_view.jpg)
+![Image](light_view.jpg)
 
 ### Reflection ###
 
 *Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.*
 
+Improvement wise, the switches that toggled the lights etc. did not always toggle and would also derail the train at times. As seen in the video, the train was also pushed along instead of using its controller because it was a bit fragile. The switches were a bit difficult to push down, maybe a form of weight within the train could have helped or finding an alternative to the switch.
+
+Everything else worked according to plan, minus the last second boom gate. All the lights toggled when they needed to and there was no issues with it toggling more than once (Which was an issue during the development of the microbit code).
+
+The photos don't really do it justice, it did look and feel a lot better when everything was seen in the light and the buildings cased the exposed wiring along the platform area.
+
 *What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?*
-In the way of circuitry, all that was needed was a simple 2 button circuit added onto the traffic light circuit in project 11. All that was needed were very slight modifications to get it working all together.
+
+In the way of circuitry, all that was needed was a simple 2 button circuit added onto the traffic light circuit in project 11. All that was needed were very slight modifications to get it working all together. This only included splitting the traffic code into two sections and using inputs for the on and off state, rather than a completely timed system.
 
 *What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
 
+While researching the timing gates, a lot of train system videos came up as well as my dad mentioning a train track with the lights. So it seemed like a good idea to go ahead on that idea, especially when most of the parts required for that project were already available to me.
 
 *What might be an interesting extension of this project? In what other contexts might this project be used?*
+
+An nice extension I believe, would be a network of tracks that followed the light system. Having multiple trains run at once, maybe with some cars making use of the traffic lights. It would be nice to see a bunch of trains going at once, all together in an expanded version.
