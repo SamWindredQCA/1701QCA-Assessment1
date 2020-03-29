@@ -253,8 +253,12 @@ In the way of circuitry, all that was needed was a simple 2 button circuit added
 
 *What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
 
-While researching the timing gates, a lot of train system videos came up as well as my dad mentioning a train track with the lights. So it seemed like a good idea to go ahead on that idea, especially when most of the parts required for that project were already available to me.
+While researching the timing gates, a lot of train system videos came up as well as my dad mentioning a train track with the lights. So it seemed like a good idea to go ahead on that idea, especially when most of the parts required for that project were already available to me. 
+
+Link provided above, under "ELECTRIC WORKING MODEL RAILWAY" for a strong influence on the project.
 
 *What might be an interesting extension of this project? In what other contexts might this project be used?*
 
 An nice extension I believe, would be a network of tracks that followed the light system. Having multiple trains run at once, maybe with some cars making use of the traffic lights. It would be nice to see a bunch of trains going at once, all together in an expanded version.
+
+Instead of just a fully built up train network, just one system could be built into a small town or city project, as it would make use of the traffic light section of the build.
